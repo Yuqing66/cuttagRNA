@@ -1,0 +1,25 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yml
+name: dolphinnext-cuttagRNA-1.0
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=2.7.5
+  - fastqc=0.11.8
+  - cutadapt=1.9
+  - bowtie2=2.4.1
+  - samtools=1.9
+  - bedtools=2.28.0
+  - macs2=1.4.2
+  - linecache
+  - argparse=1.2.1
+  - os.path
+  - sys
+  - pysam=0.8.3
+  - getopt
+  - Bio.Seq
+  - re=2.2.1
+  - gzip
+  - string
