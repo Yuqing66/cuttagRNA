@@ -6,12 +6,12 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - python=2.7.5
+  - python=3.10.4
   - fastqc=0.11.8
   - cutadapt=1.9
   - bowtie2=2.4.1
   - samtools=1.9
   - bedtools=2.28.0
-  - macs2=1.4.2
+  - macs2=2.2.7.1
   - pysam=0.8.3
   - biopython=1.79
