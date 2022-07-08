@@ -13,13 +13,6 @@ dependencies:
   - samtools=1.9
   - bedtools=2.28.0
   - macs2=1.4.2
-  - linecache
   - argparse=1.2.1
-  - os.path
-  - sys
   - pysam=0.8.3
-  - getopt
-  - Bio.Seq
-  - re=2.2.1
-  - gzip
-  - string
+  - Biopython=1.79
