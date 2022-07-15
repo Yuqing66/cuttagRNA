@@ -6,7 +6,7 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - python=2.7.5
+  - python=2.7
   - fastqc=0.11.8
   - cutadapt=1.9
   - bowtie2=2.4.1
